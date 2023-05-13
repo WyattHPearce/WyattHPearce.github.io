@@ -1,46 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Wyatt H. Pearce</title>
+<title>Wyatt H.P Portfolio - Projects</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="final.css">
+<script src="validation.js"></script>
 </head>
 
 <body>
-	<nav>
-		<div class="logo">
-			<a href="index.html">Wyatt H.P</a>
-		</div>
+	
+	<header>
+		<h1><a href="index.html">Wyatt H.P</a></h1>
+	</header>
 
-		<ul class="menu">
+	<nav>
+		<ul>
 			<li><a href="index.html">Home</a></li>
-			<li><a href="Projects.html">Projects</a></li>
+			<li><a href="projects.html">Projects</a></li>
 			<li><a href="Interact.html">Interact</a></li>
-			<li><a href="Resources.html">Resources</a></li>
-			<li><a href="Contact.html">Contact</a></li>
+			<li><a href="resources.html">Resources</a></li>
+			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
+	<div id="wrapper">
+	<div id="bannerhero">
+		<div id="bannerherotext">
+			<h2>Contact</h2>
+			<p>
+				Feel free to contact me using the form below. 
+				I am always looking to take on projects and expand my portfolio so if you have project ideas, I would be happy to discuss it with you (subject to my availability). 
+				I'm excited to hear from you!
+			</p>
+		</div>
+	</div>
 
 	<main>
-		<div class="error">
-			<h2>404</h2>
-			<p>
-				Sorry, This page is currently under construction...
-			</p>
+		<div id="contactForm">
+			<h3>Contact Me</h3>
+			<p>Required feilds are marked with an asterisk*</p>
+
+			<form method="post" action="https://webdevbasics.net/scripts/demo.php" onsubmit="return validatePhone();">
+				<label for="myFName">*First Name:</label>
+				<input type="text" name="myFName" id="myFName" required placeholder="Enter your first name...">
+
+				<label for="myLName">*Last Name:</label>
+				<input type="text" name="myLName" id="myLName" required placeholder="Enter your last name...">
+
+				<label for="myEmail">*E-mail:</label>
+				<input type="email" name="myEmail" id="myEmail" required placeholder="you@yourdomain.com">
+
+				<label for="myPhone">*Phone:</label>
+				<input type="tel" name="myPhone" id="myPhone" required placeholder="Enter your 10 digit phone number with dashes..." maxlength="12">
+
+				<label for="myDate">Meeting Date:</label>
+				<input type="date" name="myDate" id="myDate">
+
+				<label for="myAddress">Meeting location (if applicable):</label>
+				<input type="text" name="myAddress" id="myAddress" placeholder="Enter your address...">
+
+				<label for="myComments">*Comments:</label>
+				<textarea name="myComments" id="myComments" rows="2" cols="20" required ></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+
+		<div>
+			<br><span class="secondColor">Wyatt H.P</span><br>
+			<a id="mobile" href="tel:574-229-1757">574-229-1757</a>
+			<span id="desktop">574-229-1757</span><br>
+			<a href="https://www.linkedin.com/in/wyatt-pearce-036077242/">Linkedin Profile</a><br>
+			<a href="mailto:wpearce447@gmail.com">wpearce447@gmail.com</a><br><br>
 		</div>
 	</main>
 
 	<footer>
-		&copy; 2023 Wyatt H.P <a href="mailto:wpearce1@ivytech.edu">wpearce1@ivytech.edu</a>
-			<div> 
-				<script>
-					document.write("This document was last modified on:");
-					document.write(document.lastModified);
-				</script>
-			</div>
-		</footer>
+		Copyright © 2023 Wyatt H.P Portfolio<br>
+		<a href="mailto:wpearce447@gmail.com">wpearce447@gmail.com</a>
+		<div> 
+			<script>
+				document.write("This document was last modified on:");
+				document.write(document.lastModified);
+			</script>
+		</div>
 	</footer>
+	</div>
 </body>
-
 </html>
