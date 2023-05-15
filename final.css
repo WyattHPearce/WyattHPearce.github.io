@@ -21,13 +21,13 @@ header a {
     background-color: #f0efef;
     padding: 20px;
     text-decoration: none;
-    color: #325D79
+    color: #325D79;
 }
 header a:link {
-    color: #325D79
+    color: #325D79;
 }
 header a:hover {
-    color: #F26627;
+    color: #dd7a4c;
 }
 
 main {
@@ -55,13 +55,13 @@ nav a {
     text-decoration: none;
 }
 nav a:link {
-    color: #325D79
+    color: #325D79;
 }
 nav a:visited {
     color: #5b8caa
 }
 nav a:hover {
-    color: #F26627
+    color: #dd7a4c;
 }
 nav ul {
     display: flex;
@@ -80,24 +80,19 @@ nav li {
 }
 
 a {
-    color: #325D79
+    color: #325D79;
 }
 a:hover {
-    color: #F26627
+    color: #dd7a4c;
 }
 
 h2 {
-    color: #df9029;
+    color: #dd7a4c;
     font-family: 'Roboto', sans-serif;
 }
 
 h3 {
     font-family: 'Roboto', sans-serif;
-}
-
-dt {
-    color: #002171;
-    font-weight: bold;
 }
 
 footer {
@@ -110,7 +105,7 @@ footer {
 }
 
 .secondColor {
-    color: #df9029;
+    color: #dd7a4c;
     font-size: 1.2em;
 }
 
@@ -132,9 +127,9 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #192a35;
+    color: #325D79;
     padding: 10px;
-    background-color: #f0efefd8;
+    background-color: #f0efefcb;
     border-radius: 5px;
     background-attachment: fixed;
     box-shadow: 4px 4px #979797d8;
@@ -162,7 +157,7 @@ footer {
     text-align: center;
     color: #192a35;
     padding: 10px;
-    background-color: #f0efefd8;
+    background-color: #f0efef;
     border-radius: 5px;
     box-shadow: 4px 4px #979797d8;
 }
@@ -178,7 +173,7 @@ footer {
 
 .showcase {
     margin: 0.3em;
-    background-color: #F4F4F4;
+    background-color: #f0efef;
     box-shadow: 4px 4px #325D79;
     border-radius: 10px;
 }
@@ -191,20 +186,20 @@ footer {
 
 .creation {
     margin: 3em;
-    background-color: #f0efefd8;
+    background-color: #f0efef;
     border-radius: 10px;
     text-align: center;
 }
 .creation a {
     text-decoration: none;
-    background-color: #e6e5e5;
+    background-color: #ffffff;
     padding: 0.3em;
     border-radius: 5px;
     color: #325D79;
 }
 .creation a:hover {
     text-decoration: none;
-    color: #cc7615;
+    color: #dd7a4c;
 }
 
 .thumbnail {
@@ -243,7 +238,7 @@ td {
 }
 
 tr:nth-of-type(even) {
-    background-color: #cecece;
+    background-color: #f0efef;
 }
 
 form {
@@ -253,7 +248,7 @@ form {
     width: 80%;
 }
 #contactForm {
-    background-color: #cfcece93;
+    background-color: #f0efef;
     border-radius: 10px;
 }
 #contactForm h3, p{
@@ -274,7 +269,7 @@ form {
 }
 
 .scrollbar {
-    background-color: #a7a7a79c;
+    background-color: #f0efef;
     overflow-x: scroll;
     white-space: nowrap;
     margin-top: 2em;
@@ -319,7 +314,7 @@ form {
         margin: 0.3em;
     }
     .creation h3 {
-        color: #b47420;
+        color: #dd7a4c;
     }
 
     .thumbnail {
