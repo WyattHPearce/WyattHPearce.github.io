@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(230);
 
   for (let i = 0; i < particles.length; i++) {
     particles[i].update();
@@ -44,7 +44,7 @@ class Particle {
 
   display() {
     noStroke();
-    fill(255, this.lifespan);
+    fill(0, this.lifespan);
     ellipse(this.pos.x, this.pos.y, 20, 20);
   }
 }
